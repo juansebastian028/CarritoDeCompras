@@ -1,0 +1,57 @@
+.jumbotron {
+  background: -moz-linear-gradient(
+    left,
+    rgba(66, 139, 202, 1) 0%,
+    rgba(4, 41, 188, 1) 50%,
+    rgba(4, 41, 188, 1) 51%,
+    rgba(24, 58, 193, 1) 55%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  background: -webkit-gradient(    
+   left,
+  rgba(66, 139, 202, 1) 0%,
+  rgba(4, 41, 188, 1) 50%,
+  rgba(4, 41, 188, 1) 51%,
+  rgba(24, 58, 193, 1) 55%,
+  rgba(255, 255, 255, 1) 100%);
+  
+  background: -o-linear-gradient(
+    left,
+    rgba(66, 139, 202, 1) 0%,
+    rgba(4, 41, 188, 1) 50%,
+    rgba(4, 41, 188, 1) 51%,
+    rgba(24, 58, 193, 1) 55%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  border-radius: 0%;
+  color: ghostwhite;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.myImg {
+  display: block;
+  margin: auto;
+}
+
+h5{
+  padding-top: 5%;
+  text-align: center;
+}
+
+.col-md-4{
+  border: 10px solid white;
+  background-color: #efefef;
+  border-radius: 5%;
+  position: relative;
+}
+
+.myBtn{
+  position: absolute;
+  top: 90%;
+  left: 0%;
+}
+
