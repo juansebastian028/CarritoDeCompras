@@ -1,4 +1,12 @@
 .jumbotron {
+  background: linear-gradient(
+    left,
+    rgba(66, 139, 202, 1) 0%,
+    rgba(4, 41, 188, 1) 50%,
+    rgba(4, 41, 188, 1) 51%,
+    rgba(24, 58, 193, 1) 55%,
+    rgba(255, 255, 255, 1) 100%
+  );
   background: -moz-linear-gradient(
     left,
     rgba(66, 139, 202, 1) 0%,
@@ -7,7 +15,7 @@
     rgba(24, 58, 193, 1) 55%,
     rgba(255, 255, 255, 1) 100%
   );
-  background: -webkit-gradient(    
+  background: -webkit-linear-gradient(    
    left,
   rgba(66, 139, 202, 1) 0%,
   rgba(4, 41, 188, 1) 50%,

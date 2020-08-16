@@ -12,7 +12,7 @@
 <body>
 
     <!--Barra de navegacion-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
 
         <div class="container">
             <a class="navbar-brand" href="#">ComputerCore</a>
@@ -64,7 +64,7 @@
                 <h5>Portátil HP 14-ck0013la</h5>
                 <h4 class="text-danger text-center text-bold">$ 1.779.000</h4>
                 <img class="img-fluid myImg" src="img/1.png" alt="">
-                <button onclick="addCarrito('Portátil HP 14-ck0013la', '$ 1.779.000')" type="button"
+                <button data-price="$ 1.779.000" data-name="Portátil HP 14-ck0013la" type="button"
                 class="btn btn-primary btn-block myBtn">
                 <svg class="bi bi-cart" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
@@ -78,7 +78,7 @@
                 <h5>Portátil HP Envy 13-aq1001la</h5>
                 <h4 class="text-danger text-center text-bold">$ 1.889.000</h4>
                 <img class="img-fluid myImg" src="img/2.png" alt="">
-                <button onclick="addCarrito('Portátil HP Envy 13-aq1001la', '$ 1.889.000')" type="button"
+                <button data-price="$ 1.889.000" data-name="Portátil HP Envy 13-aq1001la" type="button"
                 class="btn btn-primary btn-block myBtn">
                 <svg class="bi bi-cart" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
@@ -91,7 +91,7 @@
                 <h5>Portátil Gamer HP 15-dk0008la</h5>
                 <h4 class="text-danger text-center text-bold">$ 3.449.000</h4>
                 <img class="img-fluid myImg" src="img/3.png" alt="">
-                <button onclick="addCarrito('Portátil Gamer HP 15-dk0008la', '$ 3.449.000')" type="button"
+                <button data-price="$ 3.449.000" data-name="Portátil Gamer HP 15-dk0008la" type="button"
                 class="btn btn-primary btn-block myBtn">
                 <svg class="bi bi-cart" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
@@ -104,7 +104,7 @@
                 <h5>Portátil ASUS Zenbook</h5>
                 <h4 class="text-danger text-center text-bold">$ 3.549.000</h4>
                 <img class="img-fluid myImg" src="img/4.png" alt="">
-                <button onclick="addCarrito('Portátil ASUS Zenbook', '$ 3.549.000')" type="button"
+                <button data-price="$ 3.549.000" data-name="Portátil ASUS Zenbook" type="button"
                 class="btn btn-primary btn-block myBtn">
                 <svg class="bi bi-cart" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
@@ -118,7 +118,7 @@
                 <h5>Portátil Gamer ACER</h5>
                 <h4 class="text-danger text-center text-bold">$ 3.329.000</h4>
                 <img class="img-fluid myImg" src="img/7.png" alt="">
-                <button onclick="addCarrito('Portátil Gamer ACER', '$ 3.329.000')" type="button"
+                <button data-price="$ 3.329.000" data-name="Portátil Gamer ACER" type="button"
                 class="btn btn-primary btn-block myBtn">
                 <svg class="bi bi-cart" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
@@ -131,7 +131,7 @@
                 <h5>Portátil ASUS VivoBook</h5>
                 <h4 class="text-danger text-center text-bold">$ 2.429.000</h4>
                 <img class="img-fluid myImg" src="img/8.png" alt="">
-                <button onclick="addCarrito('Portátil ASUS VivoBook', '$ 2.429.000')" type="button"
+                <button data-price="$ 2.429.000" data-name="Portátil ASUS VivoBook" type="button"
                 class="btn btn-primary btn-block myBtn">
                 <svg class="bi bi-cart" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor"
                     xmlns="http://www.w3.org/2000/svg">
@@ -208,7 +208,7 @@
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/addCarrito.js"></script>
+    <script src="js/carrito.js"></script>
 
 </body>
 
