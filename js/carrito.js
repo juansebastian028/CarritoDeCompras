@@ -1,4 +1,4 @@
-document.addEventListener("click",e=>{
+ñdocument.addEventListener("click",e=>{
 
   if(e.target.classList.contains('myBtn')){
 
@@ -16,8 +16,8 @@ document.addEventListener("click",e=>{
     const $tbl = document.getElementById("tbl");
   
     cadena += `<tr>
-                  <th>${nombre}</th>
-                  <th>${precio}</th>
+                  <td>${nombre}</td>
+                  <td>${precio}</td>
               </tr>`;
   
     localStorage.setItem("listaProductos", cadena);
