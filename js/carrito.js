@@ -1,4 +1,4 @@
-ñdocument.addEventListener("click",e=>{
+document.addEventListener("click",e=>{
 
   if(e.target.classList.contains('myBtn')){
 
